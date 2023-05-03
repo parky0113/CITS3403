@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template
 from chat.models import chatting
+
 bp = Blueprint('main', __name__, url_prefix='/')
 
 
