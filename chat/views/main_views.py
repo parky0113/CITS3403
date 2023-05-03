@@ -12,7 +12,7 @@ def index():
 
 @bp.route('/game')
 def game():
-    return render_template('game.html')
+    return render_template('gamechat.html')
 
 @bp.route('/list/')
 def _list():
