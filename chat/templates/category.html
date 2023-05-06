@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <title>Hello, Ditto!</title>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='category.css') }}" type="text/css"> 
+</head>
+<h1>Choose Your Topic!</h1>
+
+<div class="container">
+  <div class="row">
+    <form action="http://localhost:5000/game" method="POST">
+      <button name="name" type="submit" value="Animal">
+        <div class="card">
+          <div class="border"></div>
+          <div class="filter"></div>
+          <h2>Animal</h2>
+          <div class="shadow"></div>
+          <div class="backdrop"></div>
+        </div>
+      </button>
+    </form>
+
+    <form action="http://localhost:5000/game" method="POST">
+      <button name="name" type="submit" value="Person">
+        <div class="card">
+          <div class="border"></div>
+          <div class="filter"></div>
+          <h2>Person</h2>
+          <div class="shadow"></div>
+          <div class="backdrop"></div>
+        </div>
+      </button>
+    </form>
+  
+    <form action="http://localhost:5000/game" method="POST">
+      <button name="name" type="submit" value="Movie">
+        <div class="card">
+          <div class="border"></div>
+          <div class="filter"></div>
+          <h2>Movie</h2>
+          <div class="shadow"></div>
+          <div class="backdrop"></div>
+        </div>
+      </button>
+    </form>
+  
+    <form action="http://localhost:5000/game" method="POST">
+      <button name="name" type="submit" value="Food">
+        <div class="card">
+          <div class="border"></div>
+          <div class="filter"></div>
+          <h2>Food</h2>
+          <div class="shadow"></div>
+          <div class="backdrop"></div>
+        </div>
+      </button>
+    </form>
+ </div>
+</div>
+
+<div class="circle one"></div>
+<div class="circle two"></div>
+
+<svg>
+  <filter id='noiseFilter'>
+    <feTurbulence 
+      type='fractalNoise' 
+      baseFrequency='0.6' 
+      stitchTiles='stitch'/>
+  </filter>
+</svg>
+
+<svg>
+  <filter id='noiseFilter2'>
+    <feTurbulence 
+      type='fractalNoise' 
+      baseFrequency='0.6' 
+      stitchTiles='stitch'/>
+  </filter>
+  <clipPath id="rounded-clip">
+        <rect x="0" y="0" width="300" height="300" rx="20" ry="20"/>
+  </clipPath>
+</svg>
+
+<svg>
+  <filter id='noiseFilter3'>
+    <feTurbulence 
+      type='fractalNoise' 
+      baseFrequency='0.6' 
+      stitchTiles='stitch'/>
+  </filter>
+  <clipPath id="rounded-clip2">
+        <rect x="0" y="0" width="230" height="70" rx="20" ry="20"/>
+  </clipPath>
+</svg>
