@@ -3,12 +3,13 @@
   <title>Hello, Ditto!</title>
 <head>
     <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}" type="text/css"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
 </head>
 
 <section class="msger">
     <header class="msger-header">
+      {% include "navbar.html" %}
       <div class="msger-header-title">
-        <i class="fas fa-comment-alt"></i> Ditto
       </div>
       <div class="msger-header-options">
         <span><i class="fas fa-cog"></i></span>

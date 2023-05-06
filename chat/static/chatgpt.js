@@ -1,8 +1,28 @@
 const msgerForm = get(".msger-inputarea");
 const msgerInput = get(".msger-input");
 const msgerChat = get(".msger-chat");
-const category = document.getElementById('category');
 
+const person = [
+    "Barack Obama", "Beyonce", "Elon Musk", "Oprah Winfrey", "Albert Einstein" ,
+    "Cristiano Ronaldo",
+    "Queen Elizabeth II" ,
+    "Marie Curie",
+    "William Shakespeare",
+    "Leonardo da Vinci"
+]
+
+const food = ["Pizza", "Sushi", "Tacos", "Pad Thai", "Paella",
+                "Hamburger", "Croissant", "Curry", "Ramen", "Peking Duck"    
+]
+
+const movie = [
+    "The Godfather", "Titanic", "Star Wars", "The Lord of thre Rings", "The silence of the Lambs",
+    "The Shawshank Redemption", "Forres Gump", "The Matrix", "Jaws", "Gone with the Wind"
+]
+
+const animal = [
+    "Panda", "Tiger", "Eagle", "Bear", "Dog", "Koala", "Whale", "Elephant", "Chimpanzee","Zebra"
+]
 // 발급받은 OpenAI API 키를 변수로 저장
 const apiKey = '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';
 // OpenAI API 엔드포인트 주소를 변수로 저장
@@ -12,14 +32,31 @@ const apiEndpoint = 'https://api.openai.com/v1/chat/completions'
 const BOT_NAME = "Ditto";
 const PERSON_NAME = "User";
 
+let category = document.getElementById('category');
+let topic = category.value;
+
+if (topic == "Animal"){
+    answer = animal[Math.floor(Math.random() * 10)];
+}   
+else if (topic == "Person"){
+    answer = person[Math.floor(Math.random() * 10)];
+}   
+else if (topic == "Movie"){
+    answer = movie[Math.floor(Math.random() * 10)];
+}   
+else {
+    answer = food[Math.floor(Math.random() * 10)];
+}
+
 msgerForm.addEventListener("submit", event => {
 event.preventDefault();
 
-const msgText = msgerInput.value;
-if (!msgText) return;
+let original = msgerInput.value;
+if (!original) return;
 
-appendMessage(PERSON_NAME, "right", category.value);
+appendMessage(PERSON_NAME, "right", original);
 
+let msgText = original.replace("it", answer);
 botResponse(msgText);
 msgerInput.value = "";
 });
@@ -46,6 +83,7 @@ msgerChat.scrollTop += 500;
 
 async function botResponse(prompt) {
     const requestOptions = {
+
         method: 'POST',
         // API 요청의 헤더를 설정
         headers: {
@@ -69,8 +107,12 @@ async function botResponse(prompt) {
     try {
         const response = await fetch(apiEndpoint, requestOptions);
         const data = await response.json();
-        const aiResponse = data.choices[0].message.content;
-        appendMessage(BOT_NAME, "left", aiResponse);
+        let aiResponse = data.choices[0].message.content;
+        const pattern = answer;
+        const re = new RegExp(pattern, "gi");
+        const replaced = aiResponse.replace(re, "it");
+        console.log(replaced);
+        appendMessage(BOT_NAME, "left", replaced);
     } catch (error) {
 		console.error('OpenAI API 호출 중 오류 발생:', error);
         return 'OpenAI API 호출 중 오류 발생';
