@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 from chat.models import chatting
 
 bp = Blueprint('main', __name__, url_prefix='/')
@@ -10,9 +10,16 @@ def index():
     return render_template("index.html")
 
 
-@bp.route('/game')
+@bp.route('/topic')
+def topic():
+    return render_template('category.html')
+
+@bp.route('/game', methods=['POST'])
 def game():
-    return render_template('gamechat.html')
+    category = request.form['name']
+    return render_template('gamechat.html', category = category)
+
+
 
 @bp.route('/list/')
 def _list():
