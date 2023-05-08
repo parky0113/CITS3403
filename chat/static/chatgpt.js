@@ -56,8 +56,14 @@ if (!original) return;
 
 appendMessage(PERSON_NAME, "right", original);
 
-let msgText = original.replace("it", answer);
-botResponse(msgText);
+if (original.toLowerCase().includes(answer.toLowerCase())){
+    appendMessage(BOT_NAME,'left',`You are correct the answer is ${answer}`);
+}
+else{
+    let msgText = original.replace("it", answer);
+    botResponse(msgText);
+}
+
 msgerInput.value = "";
 });
 
