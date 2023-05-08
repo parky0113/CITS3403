@@ -1,15 +1,14 @@
 :root {
-    --bg: #C5D9D9;
+    --bg: rgba(111,197,197,1);
     --text: #000000;
     --border-grd1: #000000;
     --border-grd2: #111222;
-    --card-grd1: #D9BEA7;
-    --card-grd2: #D9B8B8;
-    --radial-center: rgba(173,155,255,0.3);
-    --radial-edge: rgba(11,12,22,0.3);
-    --shadow: rgba(173,155,255,0.5);
+    --card-grd1: rgba(244,168,103,1);
+    --card-grd2: rgba(244,168,103,1);
+    --radial-center: rgba(244,168,103,1);
+    --radial-edge: rgba(244,168,103,1);
+    --shadow: rgba(161,156,156,1);
   }
-  
   
   body {
     height: 100vh;
@@ -21,7 +20,7 @@
     gap: 3em;
     
     background-color: var(--bg);
-    font-family: "Recoleta";
+    font-family: Chau Philomene One;
     
     margin: 1em;
     box-sizing: border-box;
@@ -30,15 +29,27 @@
     transition: all ease 0.3s;
   }
   
+  .box {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
   h1 {
-    font-weight: normal;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
+    font-weight: Regular;
+    font-family: Chau Philomene One;
   }
   
   h2 {
     font-size: 34px;
-    font-weight: normal;
+    font-weight: Regular;
+    font-family: Chau Philomene One;
   }
   
   p {
@@ -180,6 +191,20 @@
     transition: all ease 0.3s;
   }
   
+  .v55_10 {
+    width: 148px;
+    height: 159px;
+    background: url("images/v55_10.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 658px;
+    left: 1300px;
+    overflow: hidden;
+  }
+
   
   /* Screen */
   

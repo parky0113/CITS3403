@@ -2,15 +2,24 @@
 {% block content %}
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='start.css') }}">
   <title>Index</title>
 </head>
 
 <body>
-  <h1>Welcome to Quiz!</h1>
-  <p>Go to Page
-  </p>
-  <button onclick="window.location.href = '/topic';">Game Start!</button>
-  <button onclick="window.location.href = '/list/';">Previous Chats</button>
+  <div class="v1_4">
+    <div class="v2_12"></div>
+    <span class="v2_14">Welcome to Ditto!</span>
+    <div class="v3_100"></div>
+    <div class="button-group">
+      <button onclick="window.location.href = '/topic';">Game Start!</button>
+      <button onclick="window.location.href = '/list/';">Previous Chats</button>
+    </div>
+    <span class="v2_53">This game will test your knowledge on a variety of topics, including Animals, Movies, Food, and People.</span>
+    <div class="name"></div>
+    <div class="v54_16"></div>
+  </div>
 </body>
 
 </html>
