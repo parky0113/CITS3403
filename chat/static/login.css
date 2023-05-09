@@ -1,0 +1,87 @@
+.out1 {
+    width: 100%;
+    min-height: 100%;
+    background: rgba(111,197,197,1);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.out2 {
+    width: 100%;
+    height: calc(100vh - 556px);
+    background: rgba(244,168,103,1);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: #FFFDF4;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
+
+h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px; /* Add margin to center "Log In" heading */
+}
+
+form {
+    margin-top: 20px;
+    display: inline-block; /* Add this line to center the input form */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+.cute {
+    width: 175px;
+    height: 178px;
+    background: url("images/v55_14.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+}
