@@ -1,7 +1,6 @@
 from flask import Blueprint, render_template, request, g
-from datetime import datetime
 from chat.models import chatting
-from chat.static.sqlprocess import create_connection, insert_table
+from chat.static.chatprocess import create_connection, insert_table, clean_chat
 from chat import db
 
 bp = Blueprint('main', __name__, url_prefix='/')
@@ -31,11 +30,11 @@ def process_data():
 
 @bp.route('/list/')
 def _list():
-    chatting_list = chatting.query.order_by(chatting.id.desc())
+    chatting_list = chatting.query.filter_by(user_id = str(g.user)[-2])
     return render_template('chatting/chatting_list.html', chatting_list=chatting_list)
 
 
 @bp.route('/content/<int:chatting_id>/')
 def content(chatting_id):
     info = chatting.query.get(chatting_id)
-    return render_template('chatting/chatting_content.html', info=info)
+    return render_template('chatting/chatting_log.html', info=info, clean_chat = clean_chat)

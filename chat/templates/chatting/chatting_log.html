@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <title>Hello, Ditto!</title>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}" type="text/css"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+</head>
+
+<section class="msger">
+    <header class="msger-header">
+      {% include "navbar.html" %}
+      <div class="msger-header-title">
+      </div>
+      <div class="msger-header-options">
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+  
+    <main class="msger-chat">
+        <p>{{clean_chat(info.content) | safe}}</p>
+    </main>
+  </section>
+  <button id = "dis_Button" onclick="window.location.href = '/';">Go Back</button>
+
+</html>

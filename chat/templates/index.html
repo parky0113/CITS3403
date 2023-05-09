@@ -13,8 +13,8 @@
     <span class="v2_14">Welcome to Ditto!</span>
     <div class="v3_100"></div>
     <div class="button-group">
-      <button onclick="window.location.href = '/topic';">Game Start!</button>
-      <button onclick="window.location.href = '/list/';">Previous Chats</button>
+      <button {% if not g.user %}hidden{% endif %} onclick="window.location.href = '/topic';">Game Start!</button>
+      <button {% if not g.user %}hidden{% endif %} onclick="window.location.href = '/list/';">Previous Chats</button>
     </div>
     <span class="v2_53">This game will test your knowledge on a variety of topics, including Animals, Movies, Food, and People.</span>
     <div class="name"></div>

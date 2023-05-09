@@ -3,7 +3,7 @@
 {% if chatting_list %}
     <ul>
     {% for chatting in chatting_list %}
-        <li><a href="/content/{{ chatting.id }}/">{{ chatting.id}}</a></li>
+        <li><a href="/content/{{ chatting.id }}/">{{ chatting.create_date}}</a></li>
     {% endfor %}
     </ul>
 {% else %}

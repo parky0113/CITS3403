@@ -5,19 +5,22 @@ const msgerChat = get(".msger-chat");
 const person = [
     "Barack Obama", "Beyonce", "Elon Musk", "Oprah Winfrey", "Albert Einstein" ,
     "Cristiano Ronaldo",
-    "Queen Elizabeth II" ,
-    "Marie Curie",
+    "BTS" ,
+    "Zendaya",
     "William Shakespeare",
-    "Leonardo da Vinci"
+    "Kim Kardashian",
+    "Billie Eilish"
+
 ]
 
-const food = ["Pizza", "Sushi", "Tacos", "Pad Thai", "Paella",
-                "Hamburger", "Croissant", "Curry", "Ramen", "Peking Duck"    
+const food = ["Pizza", "Sushi", "Taco", "Pad Thai", "Paella",
+                "Hamburger", "Croissant", "Curry", "Ramen", "Pecking Duck"    
 ]
 
 const movie = [
-    "The Godfather", "Titanic", "Star Wars", "The Lord of thre Rings", "The silence of the Lambs",
-    "The Shawshank Redemption", "Forres Gump", "The Matrix", "Jaws", "Gone with the Wind"
+    "Iron Man", "Titanic", "Star Wars", "The Lord of thre Rings", "Parasite",
+    "The Shawshank Redemption", "Forres Gump", "The Matrix", "Jaws", "Harry Potter",
+    "Mean Girls"
 ]
 
 const animal = [

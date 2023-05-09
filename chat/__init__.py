@@ -32,9 +32,8 @@ def create_app():
     from . import models
 
     # blueprint
-    from .views import main_views, chatting_views, auth_views
+    from .views import main_views, auth_views
     app.register_blueprint(main_views.bp)
-    app.register_blueprint(chatting_views.bp)
     app.register_blueprint(auth_views.bp)
 
     return app
