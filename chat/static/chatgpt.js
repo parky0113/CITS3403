@@ -31,7 +31,7 @@ const apiEndpoint = 'https://api.openai.com/v1/chat/completions'
 // Icons made by Freepik from www.flaticon.com
 const BOT_NAME = "Ditto";
 const PERSON_NAME = "User";
-
+document.getElementById("dis_Button").style.visibility = "hidden";
 let category = document.getElementById('category');
 let topic = category.value;
 
@@ -48,20 +48,30 @@ else {
     answer = food[Math.floor(Math.random() * 10)];
 }
 
+let count = 0;
+let score = 5;
+let chatting = [`Hi, welcome to Ditto! You have chosen ${topic} category. Ask me a question and guess the word! 😄*B`];
 msgerForm.addEventListener("submit", event => {
 event.preventDefault();
 
 let original = msgerInput.value;
 if (!original) return;
 
+chatting.push(original+'*U');
 appendMessage(PERSON_NAME, "right", original);
 
 if (original.toLowerCase().includes(answer.toLowerCase())){
-    appendMessage(BOT_NAME,'left',`You are correct the answer is ${answer}`);
+    score = score - count;
+    let correct = `You are correct! The answer is ${answer}. You asked ${count} questions, you got ${score} points!`
+    chatting.push(correct+'*B');
+    appendMessage(BOT_NAME,'left',correct);
+    sendData(chatting)
+    document.getElementById("dis_Button").style.visibility = "visible";
 }
 else{
     let msgText = original.replace("it", answer);
     botResponse(msgText);
+    count += 1;
 }
 
 msgerInput.value = "";
@@ -118,6 +128,7 @@ async function botResponse(prompt) {
         const re = new RegExp(pattern, "gi");
         const replaced = aiResponse.replace(re, "it");
         console.log(replaced);
+        chatting.push(replaced+'*B');
         appendMessage(BOT_NAME, "left", replaced);
     } catch (error) {
 		console.error('OpenAI API 호출 중 오류 발생:', error);
@@ -125,6 +136,22 @@ async function botResponse(prompt) {
     }
 }
 
+function sendData(chatting) {
+    fetch('/process-data', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({data: chatting})
+      })
+      .then(response => response.text())
+      .then(result => {
+        console.log(result);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+}
 
 // Utils
 function get(selector, root = document) {

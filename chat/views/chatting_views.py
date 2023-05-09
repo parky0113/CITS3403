@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 
 from chat.models import chatting
 
@@ -15,3 +15,8 @@ def _list():
 def content(chatting_id):
     info = chatting.query.get(chatting_id)
     return render_template('chatting/chatting_content.html', info=info)
+
+@bp.route('/postmethod', methods = ['POST'])
+def get_post_javascript_data():
+    jsdata = request.form['javascript_data']
+    return jsdata

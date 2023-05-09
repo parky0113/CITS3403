@@ -3,3 +3,4 @@ flask
 flask_wtf
 wtforms
 email_validator
+game start 랑 chatting view는 로그인 해야만 보일수 있도록
