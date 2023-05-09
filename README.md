@@ -8,4 +8,5 @@
 5. If you need a hint, type "hint" and we'll give you one more clue to help you out.
 6. Once you've guessed the answer, we'll let you know if you got it right or wrong. You can keep playing to improve your score or try a new topic.
 7. Finally, you can view your current and previous game results on the last page.
+   
 **Good luck and have fun!**
