@@ -1,31 +1,37 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
 {% extends "base.html" %}
 {% block content %}
-<div class="container">
-    <h5 class="my-3 border-bottom pb-2">Create Account</h5>
-    <form method="post">
-        {{ form.csrf_token }}
-        {% include "form_errors.html" %}
-        <div class="mb-3">
-            <label for="username">User Id</label>
-            <input type="text" class="form-control" name="username" id="username"
-                   value="{{ form.username.data or '' }}">
-        </div>
-        <div class="mb-3">
-            <label for="password1">Password</label>
-            <input type="password" class="form-control" name="password1" id="password1"
-                   value="{{ form.password1.data or '' }}">
-        </div>
-        <div class="mb-3">
-            <label for="password2">Password Check</label>
-            <input type="password" class="form-control" name="password2" id="password2"
-                   value="{{ form.password2.data or '' }}">
-        </div>
-        <div class="mb-3">
-            <label for="email">Email</label>
-            <input type="text" class="form-control" name="email" id="email"
-                   value="{{ form.email.data or '' }}">
-        </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-    </form>
-</div>
+    <div class="out1">
+        <div class="out2"></div>
+        <div class="cute"></div>
+    </div>
+    <div class="container">
+        <h5 class="my-3 border-bottom pb-2">Create Account</h5>
+        <form method="post">
+            {{ form.csrf_token }}
+            {% include "form_errors.html" %}
+            <div class="mb-3">
+                <label for="username">User ID</label>
+                <input type="text" class="form-control" name="username" id="username"
+                    value="{{ form.username.data or '' }}">
+            </div>
+            <div class="mb-3">
+                <label for="password1">Password</label>
+                <input type="password" class="form-control" name="password1" id="password1"
+                    value="{{ form.password1.data or '' }}">
+            </div>
+            <div class="mb-3">
+                <label for="password2">Password Check</label>
+                <input type="password" class="form-control" name="password2" id="password2"
+                    value="{{ form.password2.data or '' }}">
+            </div>
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" name="email" id="email"
+                    value="{{ form.email.data or '' }}">
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
 {% endblock %}
