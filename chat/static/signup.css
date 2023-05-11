@@ -17,9 +17,8 @@
     z-index: 1;
 }
 
-
 .container {
-    width: 400px;
+    width: 950px;
     height: 550px;
     background: #FFFDF4;
     opacity: 1;
@@ -86,3 +85,8 @@ button[type="submit"]:hover {
     overflow: hidden;
     z-index: 1;
 }
+
+.alert-danger {
+    float: right;
+    margin-top: 10px;
+  }

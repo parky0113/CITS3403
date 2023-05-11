@@ -52,11 +52,6 @@
     font-family: Chau Philomene One;
   }
   
-  p {
-    font-size: 16px;
-  }
-  
-  
   body::before,
   body::after {
     position: absolute;
@@ -91,6 +86,11 @@
     justify-content: center;
     gap: 3em;
   }
+
+  button {
+    background-color: #6FC6C6;
+    border:none;
+  }
   
   .card {
     display: flex;
@@ -117,13 +117,7 @@
     height: 100%;
     z-index: 2;
     border-radius: 20px;
-    border: 1px solid transparent;
-    background: linear-gradient(135deg,var(--border-grd1),var(--border-grd2)) border-box;
-    -webkit-mask:
-       linear-gradient(#fff 0 0) padding-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-            mask-composite: exclude;
+    border: 2px solid black;
   }
   
   .filter {
@@ -178,15 +172,9 @@
     z-index: 3;
     transition: all ease 0.3s;
   }
-  
-  .card:hover > .filter {
-    opacity: 22%;
-    transition: all ease 0.3s;
-    mix-blend-mode: hard-light;
-  }
-  
+
   .card:hover > .shadow {
-    box-shadow: 0px 4px 80px 10px rgb(173,155,255,0.4);
+    box-shadow: 0px 4px 80px 10px rgba(243, 152, 6, 0.892);
     z-index: 1;
     transition: all ease 0.3s;
   }
@@ -204,93 +192,3 @@
     left: 1300px;
     overflow: hidden;
   }
-
-  
-  /* Screen */
-  
-  @media only screen and (max-width: 900px) {
-    .row {
-      flex-direction: column;
-    }
-  }
-  
-  
-  /* Background effects */
-  
-  .circle {
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    background-color: #AD9BFF;
-    filter: blur(150px);
-    border-radius: 100px;
-  }
-  
-  .one {
-    left: 0;
-    top: 0;
-  }
-  
-  .two {
-    bottom: 0;
-    right: 0;
-  }
-  
-  
-  
-  
-  /* Button */
-  
-  .button {
-    height: 70px !important;
-    width: 230px !important;
-    
-    
-  }
-  
-  .filter2 {
-    position: absolute;
-  
-    width: 230px;
-    height: 70px;
-    z-index: 2;
-    background: #000;
-    filter: url(#noiseFilter3);
-    opacity: 16%;
-    clip-path: url(#rounded-clip2);
-    mix-blend-mode: hard-light;
-    transition: all ease 0.3s;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 24px;
-    height: 70px;
-    align-items: center;
-    display: flex;
-    z-index: 5;
-  }
-  
-  .backdrop2 {
-    position: absolute;
-    width: 230px;
-    height: 70px;
-    background: radial-gradient(circle at top, var(--radial-center), var(--radial-edge)), linear-gradient(135deg, var(--card-grd1), var(--card-grd2));
-    z-index: -2;
-    border-radius: 20px;
-    opacity: 20%;
-    transition: all ease 0.3s;
-  }
-  
-  .card:hover > .backdrop2 {
-    width: 260px;
-    height: 100px;
-    background: radial-gradient(circle at top, var(--radial-center), var(--radial-edge)), linear-gradient(135deg, var(--card-grd1), var(--card-grd2));
-    z-index: -2;
-    border-radius: 33px;
-    opacity: 20%;
-    transition: all ease 0.3s;
-  }
-  
-  
