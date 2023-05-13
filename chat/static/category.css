@@ -36,7 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
   h1 {
@@ -180,15 +180,15 @@
   }
   
   .v55_10 {
-    width: 148px;
-    height: 159px;
+    width: 175px;
+    height: 189px;
     background: url("images/v55_10.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 658px;
+    top: 648px;
     left: 1300px;
     overflow: hidden;
   }
