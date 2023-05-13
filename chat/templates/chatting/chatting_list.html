@@ -1,12 +1,30 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='chatting_list.css') }}" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap" rel="stylesheet"/>
 {% extends 'base.html' %}
 {% block content %}
 {% if chatting_list %}
-    <ul>
-    {% for chatting in chatting_list %}
-        <li><a href="/content/{{ chatting.id }}/">{{ chatting.create_date}}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>There are no chatting.</p>
-{% endif %}
+    
+    <div class="out1">
+        <div class="out2">
+            <div class="box">
+                <h1>Previous Chat Lists</h1>
+            </div>
+        </div>
+        <div class="cute"></div>
+    </div>
+    <div class="container">
+        <div class="info">
+        <ul>
+            {% for chatting in chatting_list %}
+                <li><a href="/content/{{ chatting.id }}/">{{ chatting.create_date}}</a></li>
+            {% endfor %}
+            </ul>
+            {% else %}
+                <p>There are no chatting.</p>
+            {% endif %}
+        </div>
+    </div>
+
 {% endblock %}
+
+
