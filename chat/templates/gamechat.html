@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="{{ url_for('static', filename='chat.css') }}" type="text/css"> 
     <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
 </head>
 
 <section class="msger">
@@ -39,7 +40,7 @@
       <button type="submit" class="msger-send-btn">Send</button>
     </form>
   </section>
-  <button id = "dis_Button" onclick="window.location.href = '/';">Go Back</button>
+  <button id="dis_Button" onclick="window.location.href = '/list/';">Go Back</button>
   <script src="{{ url_for('static', filename='chatgpt.js') }}"></script>
 
 </html>
