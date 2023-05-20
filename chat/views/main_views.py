@@ -10,6 +10,9 @@ bp = Blueprint('main', __name__, url_prefix='/')
 def index():
     return render_template("index.html")
 
+@bp.route('/instruction')
+def index():
+    return render_template("instruction.html")
 
 @bp.route('/topic')
 def topic():
