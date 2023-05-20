@@ -1,5 +1,10 @@
+/**
+ * @jest-environment jsdom
+ */
+
 // Assuming you have Jest installed, import the necessary functions
 const { test } = require('jest');
+
 
 // Import the function you want to test
 const { botResponse } = require('./chatgpt');
@@ -15,7 +20,7 @@ test('myFunction should call anotherFunction', () => {
   myModule.appendMessage = mockFunction;
 
   // Call the function you want to test
-  botResponse();
+  botResponse("D");
 
   // Assert that the mock function was called
   expect(mockFunction).toHaveBeenCalled();
