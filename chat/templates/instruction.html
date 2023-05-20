@@ -1,7 +1,34 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='instruction.css') }}" type="text/css"> 
+<link href="https://fonts.googleapis.com/css?family=Chau+Philomene+One&display=swap" rel="stylesheet" />
 {% extends 'base.html' %}
 {% block content %}
 <html>
-instructions!
+<body>
+    <div class="out1">
+        <div class="out2">
+            <div class="box">
+                <h1>HOW TO PLAY</h1>
+            </div>
+        </div>
+        <div class="cute"></div>
+    </div>
+    <div class="container">
+        <div class="article">This game will test your knowledge on a variety of topics, including Animals, Movies, Food, and People. To start playing, follow the instructions below:</div>
+        <div class="lists">
+            <hr>
+            <ol>
+                <li>Click the 'Sign In' button if you already have an account or click the "Sign up" button to create a new account.</li>
+                <li>On the sign-up page, enter your user ID and password. This will help us keep track of your progress and results.</li>
+                <li>Once you've signed up, you'll be taken to the starting page where you can choose a topic for your game when you click "Game Start!".</li>
+                <li>In the chat view, you will be assigned a random word related to your chosen topic. Ask questions including the word 'it' to guess the answer and type it in the chat box.</li>
+                <li>After submitting your guess, we will let you know if it's correct or incorrect. You can continue playing to improve your score or try a new topic.</li>
+                <li>Finally, you can view your current and previous game results on the last page.</li>
+            </ol>
+        </div>
+    </div>
+    
+</body>
+
 
 </html>
 {% endblock %}

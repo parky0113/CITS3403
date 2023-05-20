@@ -1,0 +1,65 @@
+.out1 {
+    width: 100%;
+    min-height: 100%;
+    background: rgba(111,197,197,1);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.out2 {
+    width: 100%;
+    height: calc(100vh - 556px);
+    background: rgba(244,168,103,1);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+    font-weight: Regular;
+    font-family: Chau Philomene One;
+}
+
+.container {
+    width: 200px;
+    height: 500px;
+    background: #FFFDF4;
+    opacity: 1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 8px;
+}
+
+.article {
+    font-size: 33px;
+    font-weight: Regular;
+    font-family: Chau Philomene One;
+    color: rgb(107, 55, 10);
+}
+
+.lists {
+    font-size: 25px;
+    font-weight: Regular;
+    font-family: Chau Philomene One;
+}
