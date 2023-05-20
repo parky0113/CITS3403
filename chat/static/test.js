@@ -2,7 +2,7 @@
 const { test } = require('jest');
 
 // Import the function you want to test
-const { myFunction } = require('./myModule');
+const { botResponse } = require('./chatgpt');
 
 // Create a mock function to track function calls
 const mockFunction = jest.fn();
@@ -12,10 +12,10 @@ test('myFunction should call anotherFunction', () => {
   // Set up any necessary test data
 
   // Replace the function in your module with the mock function
-  myModule.anotherFunction = mockFunction;
+  myModule.appendMessage = mockFunction;
 
   // Call the function you want to test
-  myFunction();
+  botResponse();
 
   // Assert that the mock function was called
   expect(mockFunction).toHaveBeenCalled();

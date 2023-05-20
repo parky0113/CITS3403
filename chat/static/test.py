@@ -36,3 +36,5 @@ if __name__ == '__main__':
                         
 """
     print(test_clean_chat(content, expected_string))
+    content = ""
+    print(f"It's Pass if it says Fail here: {test_clean_chat(content, expected_string)}")
