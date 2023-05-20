@@ -1,8 +1,8 @@
 
 .box {
     background-color: yellow;
-    width: 400px;
-    height: 100px;
+    width: 380px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
