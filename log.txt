@@ -1,0 +1,474 @@
+* commit 78310160fabc544b69d6eb9abc12280965d979a9 (HEAD -> main, origin/main)
+| Author: Jinseok_Oh <ok7097269@gmail.com>
+| Date:   Sat May 20 20:13:11 2023 +0800
+| 
+|     Commit log history
+|   
+*   commit a5108eb4d2b9fc257263aaa871e3492382912356 (origin/jinseok_oh, jinseok_oh)
+|\  Merge: 207c451 220a383
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Sat May 20 20:05:45 2023 +0800
+| | 
+| |     Merge pull request #19 from parky0113/jinseok_oh
+| |     
+| |     Final CSS Minor Fix
+| | 
+| * commit 220a38351a69d294c2ee1004d381ac8b55bbb557
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Sat May 20 20:05:03 2023 +0800
+| | 
+| |     Final CSS Minor Fix
+| | 
+* | commit 207c4513936d34fdffa5aaa868453726e1df792d
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 20:01:54 2023 +0800
+| | 
+| |     js test and index html clean
+| | 
+* | commit 05de26674e0890789d128c5f16c6e6fd2a7a5e90
+|\| Merge: b2199fd ce26ff7
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 19:49:50 2023 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/parky0113/CITS3403
+| |   
+| *   commit ce26ff7b954673f55fee4ea2b47cf15c27da44e4
+| |\  Merge: 115bc33 da13879
+| | | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | | Date:   Sat May 20 19:48:23 2023 +0800
+| | | 
+| | |     Merge pull request #18 from parky0113/jinseok_oh
+| | |     
+| | |     Box Size fix
+| | | 
+| | * commit da138797c01e422a60ab811aaf0e83c5a2d68241
+| |/  Author: Jinseok_Oh <ok7097269@gmail.com>
+| |   Date:   Sat May 20 19:43:38 2023 +0800
+| |   
+| |       Box Size fix
+| | 
+* | commit b2199fd4a97c4eb7e0c1a298feecf75c8de2e66d
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 19:49:39 2023 +0800
+| | 
+| |     test files
+| | 
+* | commit 45e902b79c68610cd46b821bb41d74e1ffc88392
+|\| Merge: 8950801 115bc33
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 19:39:30 2023 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/parky0113/CITS3403
+| |   
+| *   commit 115bc33d6a863fdcde2878635d463d6f57685802
+| |\  Merge: 1bb2e44 6a4fea8
+| | | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | | Date:   Sat May 20 19:37:08 2023 +0800
+| | | 
+| | |     Merge pull request #17 from parky0113/jinseok_oh
+| | |     
+| | |     Instruction page change in HTML, CSS
+| | | 
+| | * commit 6a4fea8aed2821b724ee7c2c8c5e956cab6a18f6
+| | | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | | Date:   Sat May 20 19:36:47 2023 +0800
+| | | 
+| | |     Instruction page change in HTML, CSS
+| | | 
+* | | commit 89508010128953c0686cba38608407b2d074948f
+|/ /  Author: Sean Park <22209962@student.uwa.edu.au>
+| |   Date:   Sat May 20 19:39:13 2023 +0800
+| |   
+| |       test python
+| | 
+* | commit 1bb2e443e60698963ec876a4e890179adaa1cf81
+|/  Author: Sean Park <22209962@student.uwa.edu.au>
+|   Date:   Sat May 20 19:28:07 2023 +0800
+|   
+|       python test file
+| 
+* commit e2abc12e586fec4d8d78284d7c5fe0ec5a091b78
+| Author: Sean Park <22209962@student.uwa.edu.au>
+| Date:   Sat May 20 18:47:25 2023 +0800
+| 
+|     Instruction page
+| 
+* commit 440a16a6a770600b38025c5b191a40e79f43434c
+| Author: Sean Park <22209962@student.uwa.edu.au>
+| Date:   Sat May 20 18:39:24 2023 +0800
+| 
+|     instruction html and test code
+| 
+* commit b204467e6450c926c419354a0d8e3dfe92e6cf44
+| Author: Sean Park <22209962@student.uwa.edu.au>
+| Date:   Sat May 20 18:30:35 2023 +0800
+| 
+|     Htmls
+|   
+*   commit 9cb92b11fb77b337362b726f127601dd4f28b270
+|\  Merge: 0c634f6 08f3ce1
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Sat May 20 18:03:48 2023 +0800
+| | 
+| |     Merge pull request #16 from parky0113/jinseok_oh
+| |     
+| |     Link to how to play
+| | 
+| * commit 08f3ce1d056919fe517e7d92c4657fc124c3ff79
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Sat May 20 18:03:25 2023 +0800
+| | 
+| |     Link to how to play
+| | 
+* | commit 0c634f665369336f991b017651b46845f99374d6
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 11:19:02 2023 +0800
+| | 
+| |     minor changes in js for variable names
+| | 
+* | commit b425a72df98288905e4d2e6d661077ba1b344725
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sat May 20 11:14:31 2023 +0800
+| | 
+| |     minor changes in htmls
+| | 
+* | commit 023229c70a1d56d01c8665891ab29c01ce580557
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Mon May 15 16:11:10 2023 +0800
+| | 
+| |     Update README.md
+| | 
+* | commit a95cf268618457af4708bec4e86123d4c79d1dc0
+|\| Merge: 28e61b9 0b30896
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Mon May 15 13:40:37 2023 +0800
+| | 
+| |     Merge pull request #15 from parky0113/jinseok_oh
+| |     
+| |     Chat design(previous chat) change, etc.
+| | 
+| * commit 0b3089697d27b7eb339a5158dbd867a9cf353aa7
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Mon May 15 13:39:26 2023 +0800
+| | 
+| |     Chat design(previous chat) change, etc.
+| | 
+* | commit 28e61b90d518bbe3340c1deaaee9dcde0ea95392
+|\| Merge: a1aeecd 96ec2b1
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Sat May 13 22:39:22 2023 +0800
+| | 
+| |     Merge pull request #14 from parky0113/jinseok_oh
+| |     
+| |     Previous chat list page design draft and etc.
+| | 
+| * commit 96ec2b13e04c8bd516871f2f82b2fbfbcf1fe1a5
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Sat May 13 22:38:32 2023 +0800
+| | 
+| |     Previous chat list page design draft and etc.
+| | 
+* | commit a1aeecd499a395cd7b1adeacdc8ab01b39b4ef4b
+|\| Merge: 005e81a 70db90e
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Thu May 11 22:10:26 2023 +0800
+| | 
+| |     Merge pull request #13 from parky0113/jinseok_oh
+| |     
+| |     Category page extra border fix
+| | 
+| * commit 70db90e9bd1e648ea684e8f20eff6702efe2386b
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Thu May 11 22:05:22 2023 +0800
+| | 
+| |     Category page extra border fix
+| | 
+* | commit 005e81ac7d6514ab1711229e34f9b594da0a7605
+|\| Merge: 66a9b7f ba02a94
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Thu May 11 17:05:45 2023 +0800
+| | 
+| |     Merge pull request #12 from parky0113/jinseok_oh
+| |     
+| |     Sign up page design draft
+| | 
+| * commit ba02a94a9d7a10e770f64139750cedd43f4c324e
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Thu May 11 17:04:55 2023 +0800
+| | 
+| |     Sign up page design draft
+| | 
+* | commit 66a9b7f85065c6fc9ccb225ba8a228c1264a18ff
+|\| Merge: 21ea157 d4e5b67
+| | Author: Jinseok Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Wed May 10 21:56:55 2023 +0800
+| | 
+| |     Merge pull request #10 from parky0113/jinseok_oh
+| |     
+| |     Start page design temp fix
+| | 
+| * commit d4e5b6785bdd016850cb3b2ea04793b3a537cdc1
+|/  Author: Jinseok_Oh <ok7097269@gmail.com>
+|   Date:   Wed May 10 21:41:05 2023 +0800
+|   
+|       Start page design temp fix
+|   
+| * commit 109da2bbc3d955b605547295c5c61b92b566146d (master)
+|/  Author: Jinseok_Oh <ok7097269@gmail.com>
+|   Date:   Wed May 10 19:05:02 2023 +0800
+|   
+|       Start Page Temp Fix
+|   
+*   commit 21ea1579c0929939b79880e6294bdf8f7400d1ba
+|\  Merge: 75f9f33 971205e
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Wed May 10 01:42:52 2023 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/parky0113/CITS3403
+| | 
+| * commit 971205ec0b813c3cfca2bf3d32dc2498835c4100
+| | Author: Jinseok_Oh <ok7097269@gmail.com>
+| | Date:   Tue May 9 19:46:23 2023 +0800
+| | 
+| |     Log In page design draft
+| | 
+* | commit 75f9f33c2013e1b3955d78841b374fd74e8b71fc
+|/  Author: Sean Park <22209962@student.uwa.edu.au>
+|   Date:   Wed May 10 01:42:45 2023 +0800
+|   
+|       chatting logging, view previous chats, no game or chat without sign-in
+|   
+*   commit bea85157d089efafc08a51e9005f9412fbc3ca13
+|\  Merge: ba50081 66a35fb
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Tue May 9 14:45:54 2023 +0800
+| | 
+| |     Merge branch 'main' of https://github.com/parky0113/CITS3403
+| | 
+| * commit 66a35fb22fbe806140883e92045adae4c739755a
+| | Author: Chris Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Tue May 9 08:58:13 2023 +0800
+| | 
+| |     Update README.md
+| |     
+| |     Game Description Draft2
+| | 
+| * commit 63c25a3acd43ef1b0c10c237558e5b7f9d06225d
+| | Author: Chris Oh <100020229+ok7097269@users.noreply.github.com>
+| | Date:   Tue May 9 08:57:40 2023 +0800
+| | 
+| |     Update README.md
+| |     
+| |     Game Description Draft
+| | 
+* | commit ba50081f3689756bc14c0465902e7f5ea78f2243
+|/  Author: Sean Park <22209962@student.uwa.edu.au>
+|   Date:   Tue May 9 14:45:46 2023 +0800
+|   
+|       chatting log insert db
+|   
+*   commit d3b6bd84b45c72590b63b2889ff9a547049c27ee
+|\  Merge: c522719 bf16f22
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Mon May 8 23:58:34 2023 +0800
+| | 
+| |     Merge pull request #8 from parky0113/Sean_Park
+| |     
+| |     delete unnecessary files and game completion
+| | 
+| * commit bf16f220ddbdb026837ffcc3cc19a72762331a7b (origin/Sean_Park)
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Mon May 8 23:58:03 2023 +0800
+| | 
+| |     delete unnecessary files and game completion
+| |   
+* |   commit c522719f059b5ae940c6e6690a5db2441bb83dc1
+|\ \  Merge: 48f60d2 feb2cf8
+| | | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | | Date:   Mon May 8 23:56:42 2023 +0800
+| | | 
+| | |     Merge pull request #7 from parky0113/jinseok_oh
+| | |     
+| | |     Start Page Draft Design
+| | | 
+| * | commit feb2cf8ddd282f2c0649b67820c39ddbdbe82187
+| | | Author: Chris Oh <jinoh@Ohs-MacBook-Pro.local>
+| | | Date:   Mon May 8 21:38:57 2023 +0800
+| | | 
+| | |     Category Design Draft
+| | | 
+| * | commit d9f60711e5c67e7a21a8ef83c466fc311167bdbe
+|/ /  Author: Chris Oh <jinoh@Ohs-MacBook-Pro.local>
+| |   Date:   Mon May 8 20:35:25 2023 +0800
+| |   
+| |       Start Page Draft Design
+| | 
+* | commit 48f60d21ab436d4d01299b3d48635109484ccd12
+|\| Merge: 132458e 2ca30c5
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Mon May 8 01:17:07 2023 +0800
+| | 
+| |     Merge pull request #6 from parky0113/Sean_Park
+| |     
+| |     Remove unnecessary files
+| | 
+| * commit 2ca30c50cd5135d3b1bf8123f7bced0792807968
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sun May 7 11:35:52 2023 +0800
+| | 
+| |     Remove unnecessary files
+| | 
+* | commit 132458e77328655994ee91140d16947e73fd3fb9
+|\| Merge: 79b98d7 0ebc5ea
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Sun May 7 02:14:29 2023 +0800
+| | 
+| |     Merge pull request #5 from parky0113/Sean_Park
+| |     
+| |     Sean park
+| | 
+| * commit 0ebc5ea30920e2c1d2b03faa20a9b6e4c23438ae
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sun May 7 02:11:29 2023 +0800
+| | 
+| |     now we can play, logging need to be done
+| | 
+| * commit 86a4f39f3da7828cf215e23ac285cea32cc6da6f
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Sun May 7 01:08:54 2023 +0800
+| | 
+| |     Add category html, css, and js.
+| | 
+* | commit 79b98d70c1ba24b3df3b4f9d6ce409610620828b
+|\| Merge: 56b68fb 59b2add
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu May 4 00:51:11 2023 +0800
+| | 
+| |     Merge pull request #4 from parky0113/Sean_Park
+| |     
+| |     creat js gpt chat
+| | 
+| * commit 59b2addc05b804c0031c912706a3519edf268c98
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Thu May 4 00:50:19 2023 +0800
+| | 
+| |     creat js gpt chat
+| | 
+* | commit 56b68fbffe8956cfabdc97734418e8e841c17c1f
+|\| Merge: 6aa5271 66a501c
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu May 4 00:22:30 2023 +0800
+| | 
+| |     Merge pull request #3 from parky0113/Sean_Park
+| |     
+| |     Sean park
+| |   
+| *   commit 66a501cfa7cf568bb7861ad1d7dd5d3a83a20ac1
+| |\  Merge: 2775e51 0544ce8
+| | | Author: Sean Park <22209962@student.uwa.edu.au>
+| | | Date:   Thu May 4 00:20:18 2023 +0800
+| | | 
+| | |     Merge branch 'Sean_Park' of https://github.com/parky0113/CITS3403 into Sean_Park
+| | | 
+| | * commit 0544ce8af3e4390cadb82caee010abb97fb1523d
+| | | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | | Date:   Wed May 3 13:29:44 2023 +0800
+| | | 
+| | |     Rename READ.ME to requirements.txt
+| | | 
+| * | commit 2775e5114dde06461172330ccd2625ed8c5b8506
+| |/  Author: Sean Park <22209962@student.uwa.edu.au>
+| |   Date:   Thu May 4 00:19:47 2023 +0800
+| |   
+| |       chatting available
+| | 
+| * commit d11e43af56a9898231c31a1a31ab4c886492a775
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Wed May 3 13:27:05 2023 +0800
+| | 
+| |     Log Out, user id for chatting data
+| | 
+* | commit 6aa52717c000a6d4e27fc8bfb161e38b1a67ecd6
+|\| Merge: 0690e49 bb4b5d2
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Wed May 3 12:50:41 2023 +0800
+| | 
+| |     Merge pull request #2 from parky0113/Sean_Park
+| |     
+| |     Sign Up, Sign In, LogOut, Navbar, basehtml
+| | 
+| * commit bb4b5d2272959e4fdae90d23160242215d8de279
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Wed May 3 12:49:27 2023 +0800
+| | 
+| |     Sign Up, Sign In, LogOut, Navbar, basehtml
+| | 
+* | commit 0690e49309302336cc90d3ee6e79b883262abbd9
+|\| Merge: 5be71b4 f21f699
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Wed May 3 02:53:30 2023 +0800
+| | 
+| |     Merge pull request #1 from parky0113/Sean_Park
+| |     
+| |     Sean park
+| | 
+| * commit f21f699acdbbd6206cf21a4d35e7c55ff51e5b73
+| | Author: Sean Park <22209962@student.uwa.edu.au>
+| | Date:   Wed May 3 02:52:14 2023 +0800
+| | 
+| |     changing little bit
+| |   
+| *   commit ab54b9e7e922a9f1eed4a2edf772f240058181e7
+| |\  Merge: 6870da8 5be71b4
+| |/  Author: Sean Park <22209962@student.uwa.edu.au>
+|/|   Date:   Wed May 3 02:46:46 2023 +0800
+| |   
+| |       Merge branch 'main' of https://github.com/parky0113/CITS3403
+| | 
+* | commit 5be71b46d6011df5cee4814e4ff09f58e479b04d
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu Apr 27 15:26:40 2023 +0800
+| | 
+| |     Create Colour Theme.txt
+| | 
+* | commit 0cad4b3337ddfc1ae5bc400db6fe388d8cb66c2f
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu Apr 27 15:10:23 2023 +0800
+| | 
+| |     Create gpt.py
+| | 
+* | commit 4717710a8e57366d27bbd41854fdf9952b3d1520
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu Apr 27 15:09:02 2023 +0800
+| | 
+| |     Create home.html
+| | 
+* | commit 637bf84cb6efaf8ee809b7e054b784e3306288be
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu Apr 27 15:08:30 2023 +0800
+| | 
+| |     Rename app.py to app/app.py
+| | 
+* | commit 6ca95cc2e97faffb288fb60b40d5a629dce59a81
+| | Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+| | Date:   Thu Apr 27 15:07:47 2023 +0800
+| | 
+| |     Create app.py
+| | 
+* | commit 4db37bb59c96ae1661b87a6e3f5480c05c668c23
+ /  Author: Sean Park <82624121+parky0113@users.noreply.github.com>
+|   Date:   Thu Apr 27 13:36:49 2023 +0800
+|   
+|       Initial commit
+| 
+* commit 6870da8915f117287ebda036473556e8639c43f0
+  Author: Sean Park <22209962@student.uwa.edu.au>
+  Date:   Wed May 3 02:45:52 2023 +0800
+  
+      first
+  
+* commit 89535db14a55b3469b9c3cf6690cd0a02a18330d (origin/master)
+  Author: Chris Oh <jinoh@Ohs-MacBook-Pro.local>
+  Date:   Wed May 3 12:49:54 2023 +0800
+  
+      first commit by Oh
