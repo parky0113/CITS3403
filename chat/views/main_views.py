@@ -11,7 +11,7 @@ def index():
     return render_template("index.html")
 
 @bp.route('/instruction')
-def index():
+def instruction():
     return render_template("instruction.html")
 
 @bp.route('/topic')
