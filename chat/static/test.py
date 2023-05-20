@@ -1,6 +1,15 @@
 from chatprocess import clean_chat
 
-def test_clean_chat():
+def test_clean_chat(content, expected_string):
+    result = clean_chat(content).replace(" ","")
+    expected_string = expected_string.replace(" ","")
+    if expected_string == result:
+        return "Pass"
+    else:
+        return "Fail"
+
+if __name__ == '__main__':
+    content = "HI*BBYE*U"
     expected_string = f"""
 <div class="msg left-msg">
 
@@ -26,13 +35,4 @@ def test_clean_chat():
             </div>
                         
 """
-    content = "HI*BBYE*U"
-    result = clean_chat(content).replace(" ","")
-    expected_string = expected_string.replace(" ","")
-    if expected_string == result:
-        return "Pass"
-    else:
-        return "Fail"
-
-if __name__ == '__main__':
-    print(test_clean_chat())
+    print(test_clean_chat(content, expected_string))
