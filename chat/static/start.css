@@ -91,3 +91,12 @@ button {
 button:hover {
     background-color: #fffdf4a9;
 }
+
+.instruction-link {
+  color: blue;
+  text-decoration: underline;
+  font-family: Chau Philomene One;
+  font-weight: Regular;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
