@@ -1,0 +1,68 @@
+Jinseok Oh,2023-05-20 20:05:45,Merge pull request #19 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-20 20:05:03,Final CSS Minor Fix
+Sean Park,2023-05-20 20:01:54,js test and index html clean
+Sean Park,2023-05-20 19:49:50,Merge branch 'main' of https://github.com/parky0113/CITS3403
+Sean Park,2023-05-20 19:49:39,test files
+Jinseok Oh,2023-05-20 19:48:23,Merge pull request #18 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-20 19:43:38,Box Size fix
+Sean Park,2023-05-20 19:39:30,Merge branch 'main' of https://github.com/parky0113/CITS3403
+Sean Park,2023-05-20 19:39:13,test python
+Jinseok Oh,2023-05-20 19:37:08,Merge pull request #17 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-20 19:36:47,Instruction page change in HTML, CSS
+Sean Park,2023-05-20 19:28:07,python test file
+Sean Park,2023-05-20 18:47:25,Instruction page
+Sean Park,2023-05-20 18:39:24,instruction html and test code
+Sean Park,2023-05-20 18:30:35,Htmls
+Jinseok Oh,2023-05-20 18:03:48,Merge pull request #16 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-20 18:03:25,Link to how to play
+Sean Park,2023-05-20 11:19:02,minor changes in js for variable names
+Sean Park,2023-05-20 11:14:31,minor changes in htmls
+Jinseok Oh,2023-05-15 16:11:10,Update README.md
+Jinseok Oh,2023-05-15 13:40:37,Merge pull request #15 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-15 13:39:26,Chat design(previous chat) change, etc.
+Jinseok Oh,2023-05-13 22:39:22,Merge pull request #14 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-13 22:38:32,Previous chat list page design draft and etc.
+Jinseok Oh,2023-05-11 22:10:26,Merge pull request #13 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-11 22:05:22,Category page extra border fix
+Jinseok Oh,2023-05-11 17:05:45,Merge pull request #12 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-11 17:04:55,Sign up page design draft
+Jinseok Oh,2023-05-10 21:56:55,Merge pull request #10 from parky0113/jinseok_oh
+Jinseok_Oh,2023-05-10 21:41:05,Start page design temp fix
+Jinseok_Oh,2023-05-10 19:05:02,Start Page Temp Fix
+Sean Park,2023-05-10 01:42:52,Merge branch 'main' of https://github.com/parky0113/CITS3403
+Sean Park,2023-05-10 01:42:45,chatting logging, view previous chats, no game or chat without sign-in
+Jinseok_Oh,2023-05-09 19:46:23,Log In page design draft
+Sean Park,2023-05-09 14:45:54,Merge branch 'main' of https://github.com/parky0113/CITS3403
+Sean Park,2023-05-09 14:45:46,chatting log insert db
+Chris Oh,2023-05-09 08:58:13,Update README.md
+Chris Oh,2023-05-09 08:57:40,Update README.md
+Sean Park,2023-05-08 23:58:34,Merge pull request #8 from parky0113/Sean_Park
+Sean Park,2023-05-08 23:58:03,delete unnecessary files and game completion
+Sean Park,2023-05-08 23:56:42,Merge pull request #7 from parky0113/jinseok_oh
+Chris Oh,2023-05-08 21:38:57,Category Design Draft
+Chris Oh,2023-05-08 20:35:25,Start Page Draft Design
+Sean Park,2023-05-08 01:17:07,Merge pull request #6 from parky0113/Sean_Park
+Sean Park,2023-05-07 11:35:52,Remove unnecessary files
+Sean Park,2023-05-07 02:14:29,Merge pull request #5 from parky0113/Sean_Park
+Sean Park,2023-05-07 02:11:29,now we can play, logging need to be done
+Sean Park,2023-05-07 01:08:54,Add category html, css, and js.
+Sean Park,2023-05-04 00:51:11,Merge pull request #4 from parky0113/Sean_Park
+Sean Park,2023-05-04 00:50:19,creat js gpt chat
+Sean Park,2023-05-04 00:22:30,Merge pull request #3 from parky0113/Sean_Park
+Sean Park,2023-05-04 00:20:18,Merge branch 'Sean_Park' of https://github.com/parky0113/CITS3403 into Sean_Park
+Sean Park,2023-05-04 00:19:47,chatting available
+Sean Park,2023-05-03 13:29:44,Rename READ.ME to requirements.txt
+Sean Park,2023-05-03 13:27:05,Log Out, user id for chatting data
+Sean Park,2023-05-03 12:50:41,Merge pull request #2 from parky0113/Sean_Park
+Chris Oh,2023-05-03 12:49:54,first commit by Oh
+Sean Park,2023-05-03 12:49:27,Sign Up, Sign In, LogOut, Navbar, basehtml
+Sean Park,2023-05-03 02:53:30,Merge pull request #1 from parky0113/Sean_Park
+Sean Park,2023-05-03 02:52:14,changing little bit
+Sean Park,2023-05-03 02:46:46,Merge branch 'main' of https://github.com/parky0113/CITS3403
+Sean Park,2023-05-03 02:45:52,first
+Sean Park,2023-04-27 15:26:40,Create Colour Theme.txt
+Sean Park,2023-04-27 15:10:23,Create gpt.py
+Sean Park,2023-04-27 15:09:02,Create home.html
+Sean Park,2023-04-27 15:08:30,Rename app.py to app/app.py
+Sean Park,2023-04-27 15:07:47,Create app.py
+Sean Park,2023-04-27 13:36:49,Initial commit
