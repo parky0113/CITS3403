@@ -32,13 +32,17 @@ To run the Ditto Chat Game locally on your machine, follow these steps:
 
 ## Testing and Validation
 
-The Ditto Chat Game includes a test suite to ensure its functionality is working correctly. To run the tests, follow these steps:
+The Ditto Chat Game includes a test suite to ensure its functionality is working correctly. <br />
+There are two unit tests file for python and javascript which are in **static** folder. <br />
+To run the tests, follow these steps:
 
-1. Make sure you have completed the steps to set up the project locally.
-2. Open a terminal or command prompt and navigate to the project's directory.
-3. Run the following command to execute the tests:
-- flask test
-4. The test suite will run, and you will see the results in the terminal.
+### Unit Test
+To run js test file type "jest" in command line.<br />
+To run python test file run test.py file and see the result.<br />
+
+
+### Selenium Test
+To run selenium file, run selenium_test.py and see the result.<br />
 
 ## Development Resources
 
