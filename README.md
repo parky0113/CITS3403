@@ -9,3 +9,7 @@
 6. Finally, you can view your current and previous game results on the last page.
    
 **Good luck and have fun!**
+
+**Installation**
+Unpack the ZIP file containing the project to your desired location.
+Open a terminal or command prompt and navigate to the project directory.
