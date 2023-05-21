@@ -12,11 +12,11 @@
     <div class="v2_12"></div>
     <span class="v2_14">Welcome to Ditto!</span>
     <div class="button-group">
-      <button {% if not g.user %}hidden{% endif %} onclick="window.location.href = '/topic';">Game Start!</button>
+      <button id="button1" {% if not g.user %}hidden{% endif %} onclick="window.location.href = '/topic';">Game Start!</button>
       <button {% if not g.user %}hidden{% endif %} onclick="window.location.href = '/list/';">Previous Chats</button>
     </div>
     <span class="v2_53">This game will test your knowledge on a variety of topics, including Animals, Movies, Food, and People. 
-      <a onclick="window.location.href = '/instruction';" class="instruction-link">HOW TO PLAY</a>
+      <a id="instruction" onclick="window.location.href = '/instruction';" class="instruction-link">HOW TO PLAY</a>
     </span>
     <div class="v54_16"></div>
   </div>

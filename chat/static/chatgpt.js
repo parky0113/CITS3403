@@ -91,7 +91,7 @@ const msgHTML = `
         <div class="msg-info-time">${formatDate(new Date())}</div>
         </div>
 
-        <div class="msg-text">${text}</div>
+        <div id="msg" class="msg-text">${text}</div>
     </div>
     </div>
 `;

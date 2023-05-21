@@ -1,4 +1,4 @@
-from chatprocess import clean_chat
+from static.chatprocess import clean_chat
 
 def test_clean_chat(content, expected_string):
     result = clean_chat(content).replace(" ","")
